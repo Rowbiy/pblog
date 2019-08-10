@@ -1,0 +1,29 @@
+{
+  "name": "tom-web-server",
+  "version": "1.0.0",
+  "description": "T1 Management System",
+  "author": "rowbiy <leeqingpeng@126.com>",
+  "private": true,
+  "scripts": {
+    "build": "node server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.1",
+    "express": "^4.14.1",
+    "log4js": "~0.6.26",
+    "urllib": "^2.26.0"
+  },
+  "devDependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cross-spawn": "^5.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "opn": "^6.0.0",
+    "selenium-server": "^3.0.1",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.6"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
