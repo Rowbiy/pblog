@@ -48,6 +48,7 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'prd' ? 'error' : 'off',
     //规定圆括号内部的空格。规定是否需要在(右边，或者)左边加空格。
-    "space-in-parens": [0, "never"]
+    "space-in-parens": [0, "never"],
+    "no-var": 2
   }
 }
