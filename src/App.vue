@@ -11,7 +11,11 @@ export default {
     return {
     }
   },
+  mounted () {
+    console.log('p + mounted')
+  },
   created () {
+    console.log('p + created')
   }
 }
 </script>

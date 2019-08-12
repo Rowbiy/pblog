@@ -1,5 +1,6 @@
 // 调用check-versions.js 模块，检查版本node和npm的版本
 require('./check-versions')()
+process.env.NODE_ENV = 'dev'
 // 引入express服务器
 const expressApp = require('../src/server/app')
 
@@ -7,7 +8,7 @@ const expressApp = require('../src/server/app')
 var config = require('../config')
 
 // opn模块
-var opn = require('opn')
+var opn = require('open')
 
 var webpack = require('webpack')
 
